@@ -14,3 +14,7 @@ function save(){
   count = 0;
   
 }
+
+function reset(){
+  count = 0;
+  countEl.textContent = count;}
