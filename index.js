@@ -10,5 +10,7 @@ function increment(){
 function save(){
   let countDash = count + " - ";
   saveEl.textContent += countDash;
+  countEl.textContent = 0;
+  count = 0;
   
 }
